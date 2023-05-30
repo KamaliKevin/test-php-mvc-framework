@@ -1,4 +1,4 @@
-# PHP MVC Framework
+# About this
 Based on QuickProgramming's MVC Framework
 
 # License
