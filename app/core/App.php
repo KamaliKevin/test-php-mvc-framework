@@ -8,7 +8,7 @@ class App
 
     // Methods:
     private function splitURL(){
-        return explode("/", trim($_GET["url"], "/") ?? "home");
+        return explode("/", trim($_GET["url"] ?? "home", "/"));
     }
 
     public function loadController(){

@@ -1,7 +1,11 @@
 <?php
 
-class Products extends Controller
+class Products
 {
+    // Parents:
+    use Controller;
+
+    // Methods:
     public function index()
     {
         $this->view("products");
