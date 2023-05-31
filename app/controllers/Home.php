@@ -1,11 +1,18 @@
 <?php
 
-class Home extends Controller
+use models\User;
+
+class Home
 {
+    // Parents:
+    use Controller;
+
+    // Methods:
     public function index()
     {
-        $model = new Model();
-        $model->update(3, ["email" => "s_montgomery@gmail.com", "date_of_birth" => "1998-09-24"]);
+        $user = new User();
+        $result = $user->findAll();
+        show($result);
 
         $this->view("home");
     }

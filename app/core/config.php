@@ -18,3 +18,11 @@ else {
 
     define("ROOT", "https://yourwebsite.com");
 }
+
+/* App settings */
+define("APP_NAME", "Test website");
+define("APP_DESCRIPTION", "Website made to test a PHP MVC Framework");
+
+/* Debug mode (should be set to "true" to show errors during local development,
+"false" if errors should not be shown and in production) */
+define("DEBUG", true);

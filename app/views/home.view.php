@@ -7,7 +7,5 @@
 <body>
     <h1>Home</h1>
     <h3>You are viewing the home page</h3>
-    <img src="<?= ROOT ?>/assets/images/berlin_at_evening.jpg"
-         alt="Berlin at evening">
 </body>
 </html>
